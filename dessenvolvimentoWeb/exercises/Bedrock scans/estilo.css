@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 150px;
+    color: rgb(128, 0, 255);
+    background-color: gray;
+    display: flex;
+}
+input[type = "checkbox"]{
+    display: none;
+}
+.Menu{
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    top: -15px ;
+    
+}
+.Menu:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Container{
+    height: 100%;
+    background-color: rgb(83, 64, 64);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.child .img{
+    width: 25%;
+    height: 150px;
+}
+
+
+.Container .img{
+    display: flex;
+}
+
+.tituloBody{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(128, 0, 255);
+}

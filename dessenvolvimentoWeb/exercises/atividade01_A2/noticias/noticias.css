@@ -1,0 +1,26 @@
+@import url(../fonts.css);
+html{
+    background-color: lightgoldenrodyellow;
+    font: normal 18px arial;
+}
+
+*{
+    padding: auto;
+    margin: auto;
+}
+div>h1{
+    font: normal 35px "Verdana" ;
+    text-align: center;
+}
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.div1{ 
+
+}
+.div2{ 
+
+}

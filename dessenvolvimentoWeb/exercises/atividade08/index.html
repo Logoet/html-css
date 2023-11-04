@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <main>
+        <section id="sec1">
+            <div class="espaço-vazio" onclick="LimparImagem(0)"></div>
+            <div class="espaço-vazio" onclick="LimparImagem(1)"></div>
+            <div class="espaço-vazio" onclick="LimparImagem(2)"></div>
+        </section>
+        <section id="sec2">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/P.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/D.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/E.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/P.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/S.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/A.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/D.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/P.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/S.jpg" alt="">
+            <img class="letra" onclick= "MoverImagem(this)" src="assets/E.jpg" alt="">
+        </section>
+    </main>
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
+    <script>
+        function MoverImagem(letra){
+            ///Variavel que terá todos os seletores CSS da classe espaço-vazio
+            var verifica_espaço = document.querySelectorAll(".espaço-vazio");
+            for (var i = 0; i < verifica_espaço.length; i++) {
+                if(!verifica_espaço[i].hasChildNodes()){
+                    var clone = letra.cloneNode(true);
+                    verifica_espaço[i].appendChild(clone);
+                    break;
+                }
+            }
+        }
+        function LimparImagem(index){
+            var espaçoVazio = document.querySelectorAll(".espaço-vazio");
+            var espaço = espaçoVazio[index];
+                if (espaço.hasChildNodes()) {
+                    espaço.removeChild(espaço.firstChild);
+                }
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- Crie uma página com duas regiões principais: uma maior, no meio da tela, com três espaços em branco; outra menor, mais embaixo, com ao menos dez imagens colocadas lado a lado. Programe a página para que cada imagem pequena, quando clicada, faça uma cópia de si mesma para o primeiro espaço em branco disponível no meio da tela. Além disso, os espaços do meio devem ser esvaziados quando clicados, se estiverem com imagem. Entregue, usando um arquivo PDF, uma breve explanação de que fez, incluindo prints que demonstrem o trabalho realizado. -->

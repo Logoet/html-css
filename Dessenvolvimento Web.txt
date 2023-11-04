@@ -1,0 +1,56 @@
+Aula 01 - (27/07/23)
+#Introdução à HTML
+	Comandos:
+		<p> Parágrafo
+		<br> Quebra de linha
+		&lt menor que 
+		&gt Maior que
+		<img src="x" alt="y">
+	HTML Entities(entidades)
+		-Gera Simbolos; &euro, &yen,&empty
+	*emojipedia.org
+		-Usar o comando &#x -> u+; &#x1f604(U+1f604)
+	*IconArchive
+/////////////////////////////////////////////////////////////
+Aula 04 - (03/08/23)
+#divs
+	<header> Bloco de cabeçalho do código.
+	<article> Bloco de artigo.
+	<footer> Bloco de rodapé.
+/////////////////////////////////////////////////////////////
+Aula 05 - (?/08/23)
+Melhorar atividade 01(?)
+/////////////////////////////////////////////////////////////
+Aula 06 - (?/08/23)
+Css ?
+/////////////////////////////////////////////////////////////
+Aula 07 - (17/08/23
+propriedade BORDER
+	-Ajusta as bordas de um texto.
+propriedade PADDING
+	-Ajusta o distânciamento entre borda e texto.
+Propriedade MARGIN
+	-Ajusta a margem(espaçamento) entre os itens numa <div>
+propriedade COLOR
+	-Muda a cor do texto
+propriedade TEXT-ALIGN
+	-Alinha o texto.
+propriedade BACKGROUND_COLOR
+	-Muda a cor de fundo
+propriedade WIDTH/HEIGHT
+	-Muda altura e largura 
+	
+/////////////////////////////////////////////////////////////	
+Aula 08 (24/08/23)
+-Imports no Css
+	Procurar fontes e, ou importar dum arquivo, ou importar uma ULR
+/////////////////////////////////////////////////////////////
+Aula 10 (30/08/23)
+##Trabalhando com CSS 
+
+/////////////////////////////////////////////////////////////
+AUla11(04/10/23)
+#?
+
+
+	

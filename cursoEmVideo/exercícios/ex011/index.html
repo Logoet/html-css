@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:  750px)" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="Imagem flexiviel">
+    </picture>
+    <hr>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo o áudio</p>
+    <!-- <audio src="midia/track_tribe.mp3" controls ></audio> -->
+    <audio preload="" autoplay controls loop>
+        <source src="midia/track_tribe.mp3" type="audio/mpeg">
+        <source src="midia/track_tribe.mp3.ogg" type="audio/ogg">
+        <source src="midia/track_tribe.mp3.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio.
+        <a href="https://r5---sn-bg0eznsk.googlevideo.com/videoplayback?expire=1693841533&ei=Jfb1ZObPE5aKhwbOiZaADQ&ip=0.0.0.0&id=5571c97807354da4&itag=25&source=yt_reference&requiressl=yes&susc=ytcm&mime=audio/mpeg&vprv=1&gir=yes&clen=5734437&ratebypass=yes&dur=143.359&lmt=1691766457439534&title=Flying%20-%20Track%20Tribe&ext=mp3&txp=0011224&sparams=expire,ei,ip,id,itag,source,requiressl,susc,mime,vprv,gir,clen,ratebypass,dur,lmt,title,ext&sig=AOq0QJ8wRgIhAJk6UMaMxmKJiSR_qHDm0Q6m2OJWDGZRKG1rd9aZj_bAAiEArnOtHn5y8yOGwK5k890a35LFiPKBAbefFWd8ozTvVbw=&redirect_counter=1&cm2rm=sn-bioxupouxgoxucg-b8ge7e&req_id=9666532cc7cda3ee&cms_redirect=yes&cmsv=e&mh=ym&mip=187.102.28.71&mm=29&mn=sn-bg0eznsk&ms=rdu&mt=1693840661&mv=m&mvi=5&pl=24&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgJ1d8WEUptrYrlYwFUF9AdqVc025aU4UFHUaOfWsbarYCIF2OhgIQPzV8D9OYgOAxWmK_JC16K2_R2W0xR0UbOUbQ">Clique aqui para baixar o arquivo</a>
+        </p>
+    </audio>
+</body>
+</html>

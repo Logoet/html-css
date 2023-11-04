@@ -1,0 +1,85 @@
+@import url(fonts.css);
+@import url(colors.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-principal);
+
+}
+header{
+    border-bottom: 0.5px dashed var(--cor4);
+    background-color: var(--cor1);
+    color:var(--cor2);
+    text-align: center;
+    padding: 15px 0px;
+
+    position: relative;
+    bottom: 1px;
+}
+nav{
+    background-color: var(--cor1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+a{
+    color: var(--cor5);
+}
+main{
+    
+    background-color: var(--cor6);
+    color: black;
+    display: flex;
+}
+section{
+    border: 1px solid blue;
+    padding-bottom: 15px;
+}
+.esquerda{
+    flex-basis: 30%;
+}
+.direita{
+    flex-basis: 70%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+div{
+    font-family: var(--fonte-content);
+    padding: 10px;
+    border: 2px groove var(--cor7);
+    border-radius: 5px;
+    margin: 10px;
+    width: 40%;
+    height: 30px;
+}
+.content1{
+    color: lightpink;
+    background-color: bisque;
+    height: 50px;
+}
+.content2{
+    color: aqua;
+    background-color: blue;
+    width: 10vh;
+}
+.content3{
+    color: aquamarine;
+    background-color: green;
+
+}
+footer{
+    background-color: var(--cor1);
+    color: var(--cor8);
+    /*
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    */
+}

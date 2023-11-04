@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: solid black 2px;
+    background-color: rgb(245, 245, 146);
+    margin-bottom: 5px;
+}
+
+main{
+
+}
+section{
+    background-color: lightgoldenrodyellow;
+    margin: 0px 25%;
+    border-radius: 15px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 150px;
+}
+article > p,a{
+    display: block;
+    text-align: center;
+}
+
+

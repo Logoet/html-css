@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Tabela */
+table{
+    border-collapse: collapse;
+}
+td, th{
+    padding: 4px;
+    border: 0.2px solid rgb(44, 44, 255);
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+/* Parágrafo */
+p:first-child{
+    font-size: smaller;
+    text-align: right;
+    font-style: italic;
+}
+
+/* Menu */
+ul{
+    display: block;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    list-style: none;
+    background-color: rgb(123, 121, 121);
+    color: bisque;
+    padding: 20px 30px;
+    transition: left 0.5s, backgroud-color 1.5s;
+}
+label[for="icone"]{
+    position: fixed;
+    z-index: 3;
+    color: aqua;
+    top: 0;
+    left: 10px;
+}
+input[type = "checkbox"]{
+    display: none;
+}
+input[type = "checkbox"]:checked + ul{
+    left: 0;
+    background-color: black;
+    transition: left 0.5s, backgroud-color 3s;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+

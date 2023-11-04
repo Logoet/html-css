@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+
+@font-face {
+    font-family: "sans";
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+:root{
+    --fonte-principal: "Roboto condensed";
+    --fonte-content: "sans";
+}
