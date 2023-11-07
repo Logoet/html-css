@@ -1,0 +1,260 @@
+----------------------------------------------------------
+***HTML/CSS***
+Curso Em Video(CEV) - Playlist do YT.
+Dessenvolvimento WEB(WEB) - Faculdade
+*W3schools - Documentação HTML/CSS.
+*Livros - ?
+---------------------------//-----------------------------
+SUMÁRIO
+A0 - Introdução
+A1 - 
+A2 - 
+A3 - 
+A4 -
+A5 -
+A6 -
+A7 -
+
+
+---------------------------//-----------------------------
+Aula 0 - (#/#/23)
+####Introdução
+#
+///As playlists do CEV serão para fazer um estudo paralelo com o dessenvolvimento WEB.
+///Aprender JS em aparelo e PHP.
+///Espero conseguir criar e recriar sites ao final dessse estudo.
+
++++COMANDOS+++
+--HTML
+*<p>
+
+
+-CSS
+
+
+---------------------------//-----------------------------
+CEV - Aula 1 - (16/09/23)
+#História da Internet
+#Como Funciona a Internet
+#Como funciona HTML e CSS
+#Primeiros passos HTML
+
+///A HTML é baseada em marcações chamadas de tags.
+*<p> - Cria uma tag de parágrafo.
+*<a href =""> - Cria uma tag de link.
+$font-family: - Define a fonte do bloco.
+$font-size: - Define o tamanho da fonte do bloco.
+$color: - Define a cor da fonte do bloco.
+*<br> - Insere uma quebra de linha.
+///Emojipedia.org para achar o código dos emojis.
+///Basta procurar um emoji, pegar o seu código U+1 e depois substituir o U+ por &#x e o restante do código &#x1F604.
+///Sites com domínio de imagens público: Unsplash, Pexels, Freepik, rawpixel, pixabay, wikimedia commons.
+*<img src="" alt=""> - Insere uma imagem.
+///IconArchive é um site para achar favicons prontos e o favicon.io para transformar imagem em .ICO.
+*<link rel="" href="" type=""> - Cria uma conexão de algo em algum lugar(Conectar um favicon na aba), conectar um arquivo CSS na página HTML.
+*<h> Cria uma tag de Título
+/// <h1> <h2> <h3> criam hierarquias nos titulos.
+*class="" - Atribui o nome de uma classe para a tag selecionada.
+*<address> - Atribui o significado de endereço a um texto dentro duma tag.
+*<strong> - Atribui o significado de força a um texto dentro duma tag.
+*<em> - Atribui o significado de ênfase a um textro dentro duma tag.
+*<mark> - Atribui o significado de marcação a um texo dentro duma tag.
+*<small> - Atribui o significado de menor importância a um texto dentro duma tag.
+*<del> - Atribui o significado de não importânmcia a um texto dentro duma tag.
+*<sub> e <sup> - Tags que sobrescreve e subscrevem o texto.
+*<code> - Insere um bloco de texto que será interpretado como sendo um código, tendo espaçamento diferente.
+*<pre> - Tag que mantem o texto dentro dela com a formatação igual ao que foi digitado, mantendo quebras de linha e espaçamentos.
+*<q> - Tag que insere aspas e deixa o texto num formato de citação, geralmente utilizado no meio de textos.
+*<blockquote> - Tag que cria um bloco de citação, gerando automaticamente um recuo e a formatação de citação.
+*cite="" - Parâmetro que transforma o texto dentro da <blockquote> como um link.
+*<abbr title=""> - Tag que indica que o texto é uma sigla, onde é inserido o título da abreviação e depois a abreviação.
+*<ol> - Cria um bloco de lista onde a ordem é importante.
+	*type - Parâmetro que modifica o marcador da lista.
+	*start - Parâmetro que indica qual o elemento número que a lista inicia.
+*<li> - Cria uma linha contendo um item numa lista.
+*<ul> - Cria uma lista onde  a ordem não importa.
+*<dl> - Cria um bloco de lista de definição, onde cada termo terá uma definição.
+	*<dt> - Insere um item na lista.
+	*<dd> - Diz a definição do item inserido acima.
+<a> - Tag que gera um texto com um link.
+	*href="" - Parâmetro onde é inserido o link ao qual será direcionado quando o texto da tag <a> for selecionado.
+	*hreflang="" - Parâmetro que diz qual a lingua para onde o link está direcionando, serve pro navegador se preparar para traduzir caso seja necessário.
+	*target="" - Atributo que controla como o link será aberto.
+	*rel="" - Atributo que indica a natureza do link, se ele é externo, interno, entre outros.
+	*download="" - Atributo que indica que o link é um arquivo para download. o nome do arquivo de download vai ser o mesmo do texto que estiver entre "". 
+	*type="" - Diz qual é o tipo de arquivo que vai ser baixado; application/zip, text/html, video/mp4, audio/mpeg, image/png.
+	
+---------------------------//-----------------------------
+CEV - Aula 2 - (16/09/23)
+#Imagens dinâmicas, áudios e vídeos
+
+*<picture> -  É Uma tag que cria um bloco onde serão inseridas imagens.
+*<source> define um tamanho pra que aquela imagem.
+	*media="" - Atributo que indica o tamanho máximo para carregar a imagem indicada pelo srcset.
+	*srcset="" - Indica o nome da imagem que será selecionada, quando a tela chegar ao tamanho determinado pelo media.
+*<audio> - Tag que cria um bloco para colocar uma faixa de áudio. Porém é limitado.
+	*preload="" - Atributo que indica se o áudio será pre carregado ou não; Metadata(Carrega apenas informações do arquivo), None(Não carrega nada até que o usuário clique no botão play), Auto(Carrega o áudio assim que a página for carregada).
+	*controls - Atributo que habilita a HUD de controles da faixa de audio.
+	*autoplay - Atributo que começa o áudio assim que a página abre.
+	*loop - Atributo que faz o áudio reiniciar após finalizar.
+	*<source>" - Tag que insere o áudio ná página.
+*<video> - Tag que cria um bloco onde serão inseridos vídeos.
+	*poster - Atributo que insere uma imagem como capa da HUD do vídeo.
+	*controls - Atributo que insere uma HUD de controles no vídeo.
+	*autoplay - Atributo que diz para o navegador se o vídeo vai começar a tocar automaticamente, asism que a página for carregada.
+*<iframe> - Tag utilizada para importar um vídeo da internet, é gerada automaticamente por sites como Youtube e Vimeio.
+///Evitar arquivo .wav por serem muito pesados.	
+
+---------------------------//-----------------------------
+CEV - Aula 3 - (18/09/23)/(27/09/23)
+#Psicologia das cores
+#representando cores
+#harmonia de cores
+
+///A aula falou sobre a importância que cada cor tem com seu devido contexto; O azul remete tecnologia, o vermelho remete amor, o amarelo felicidade...
+///É possível representar as cores com o nome delas, hexadecimal, RGBA e hsl.
+*Circulo cromático - Um círculo que representa todas as cores, ou algumas cores selecionadas.
+*Cores primárias(RGB) - São o vermelho, amarelo e o azul.
+*Cores secundarias(RGB) - São o laranja, verde e o violeta.
+*Cores terciárias(RGB - São cores que estão entre uma terciária e uma primária.
+*temperatura de Cores - Diferenciam cores quentes e cores firas.
+*Cores complementares - Basta traçar uma "reta" na cor primária e terá a cor que contrasta/complementa a cor primária.
+*Cores análogas - São cores que são vizinhas da cor principal.
+///O site da adobe gera paleta de cores.
+///O site do paletton gera um site de exemplo para sua paleta de cores.
+///O site coolors cria paletas de cores personalizadas de maneira fácil e prática.
+*background-image - Comando CSS para criar degradê.
+	*Linear-gradient - atributo que delimita como será o dregadê.
+	*radial-gradient - atributo que delimita o degradê num formato circular.
+	
+---------------------------//-----------------------------
+CEV - Aula 4 - (24/09/23)
+#Tipografia
+*Tipografia - significa como algo é escrito em uma "folha de papel".
+*anatomia do tipo - são as partes que determinam uma tipografia.
+///na tag font-family, deve-se utilizar varias fontes para caso o dispositivo não tenha uma delas. Também pode-se indicar apenas o tipo da fote, sendo ela monoespaçada, sans-serif, serif.
+
+
+---------------------------//-----------------------------
+CEV - Aula - 5  - (25/09/23)
+#Fontes
+#importar fontes do google
+///Utilizar o PX ou EM para tamanho de fontes.
+*font-weight - comando que indica o peso da fonte.
+*text-decoration - comando que cria alguma decoração no texto, como sublinhado.
+///Para importar uma fonte, basta ir no google, procurar a fonte, importar ela no arquivo css e utilizar o font-family disponibilizado no google.
+///fonts ninja, extensão que permite indentificar fontes num site.
+*text-align - comando que alinha o texto.
+*text-ident - comando que cria o espaçamento do parágrafo.
+
+
+---------------------------//-----------------------------
+
+CEV - Aula 6 - (25/09/23)
+#Seletores personalizados
+#Diferença entre ID e class
+#pseudo-classes
+#pseudo-elementos
+*id - Atributo indetificador que diferencia tags entre si. a # é o termo que se usa para chamar 
+*class - Atributo classe que tem a mesma função do id, porém pode ser repetido.
+/// Não utilizar varios Ids com o mesmo nome, apenas um nome por id.
+/// em HTML é id = em css é # -> em HTML é class = em css é #
+*display: inline-block - Comando que alinha uma sequência de divs para que fiquem horizontais.
+*pseudo-classes(PC) - são comandos que estão relacionadas ao estado de um elemento ou classe, são representadas pelos ":"; active, empty, disable, enabled.
+*:hover - PC que ativa quando o mouse passa por cima do elemento.
+*pseudo-elementos(PE) - comandos que estão relacionados ao conteúdo da HTML, são representados pelos "::".
+*:visited - PC que ativa quando o elemento é acessado.
+*:active - PC que ativa quando o elemento é selecionado e some aos deselecionar.
+*::after - PE que insere algum dado na html, após o elemento selecionado.
+*content - comando que diz qual será o conteúdo que será inserido na PE.
+*::before - PE que insere dados na html, antes do elemento selecionado.
+
+---------------------------//-----------------------------
+CEV - Aula 7 - (25/09/23)/(26/09/23)
+#Modelo de caixas
+#Tags de agrupamento
+#Sombras nas caixas
+#Caixas com vértices
+*Block-level - Elementos em CSS do tipo caixa que ocupam toda a largura da tela e se iniciam em uma nova linha; addres, form, nav, main, div.
+*Inline-level - Elementos em CSS do tipo caixa que não começam numa nova linha e sim no ponto onde foram definidos, além da largura deles ocupar apenas o tamanho relativo do seu conteúdo.
+*<span> - Tag HTML que gera uma caixa do tipo inline-level.
+*<div> - Tag HTML que gera uma caixa do tipo box-level.
+*padding - Espaço entre o conteúdo de uma tag e a borda.
+*margin - Espaço fora da borda que se limita à pagina HTML toda.
+	*margin: auto - comando CSS que centraliza um elemento utilizando suas margens
+///É possível transformar um elemento do tipo block-level em inline-level e vice e versa. utilizando o comando display.
+*Grouping tags - Tags semânticas que são utilizadas para fazer agrupamentos de dados; header, main, footer, nav, section, article, aside(relativo à),.
+*box-shadow - Comando CSS que insere uma sombra numa caixa.
+*border-radius - Comando CSS que gera um arredondamento na borda.
+///O border-radius em 50% cria um circulo.
+*box-sizin - Comando CSS que define que as dimensões Height e Width não são medidas apenas apartir do conteúdo(content-box) e sim pela borda(border-box).
+
+---------------------------//-----------------------------
+CEV - Aula 8 - (28/09/23)/(03/10/23)
+#Planejando a estrutura do site
+#Responsividade
+*mockFlow - Site que possibilita a criação do layout de um site, desenhando a estrutura dele.
+///Antes de começar a criar o site, tenha um layout basico, cores predefinidas e a ideia do site e do que será feito.
+///Utilizar variaveis em CSS pra facilitar o trabalho com cores e fontes.
+*min-width - Atributo em css que indica qual será a largura minima do elemento.
+*max-width - Atributo em css que indica qual será a largura máxima do elemento.
+///Em celulares mais antigos, a largura mínima é de 320px.
+///O max/min width irá adaptar o conteúdo do elemento para o tamanho específicado.
+///Em imagens, colocar o width 100% a tornará responsiva no elemento onde ela está
+///Utilizar o <picture> para organizar as imagens de diferentes tamanhos e tornar o site mais responsivo.
+
+---------------------------//-----------------------------
+CEV - Aula 9 - (07/10/23)
+#Construindo o site
+#Configurando Header
+#Melhorando o formato do conteúdo
+///Apenas prática.
+*Transition-duration - Comando CSS que gera uma animação de transição antes de um Pseudo-elemento ou classe executar.
+*line-height - Comando CSS que altera a altura entre linhas, o seu espaçamento.
+///Muito importante de criar um espaçamento que facilite a leitura.
+********Verificar código HTML para descobrir porque o main não está funcionando
+
+---------------------------//-----------------------------
+CEV - Aula 10 - (21/10/23)
+#Formulários
+#label
+#GET e POST
+#Caixas de texto e senha
+///Um formulário é criado num <form>.
+*<input> - Tag utilizada para criar caixas de inserção de texto.
+///Existem vários tipos de input, como o submit, que é um botão, o password para senhas, entre outros.
+///É importante que uma label esteja conectada com seu input.
+///Entre os métodos para enviar arquivos de um formulário existem dois. O GET e o POST.
+*GET - Utilizado quando não está falando de dados sensíveis. Tem limite de 3000 bytes. Não é possível fazer envio de arquivos, como fotos, videos PDF.
+*POST - Utilizado em dados sensíveis e para envios grandes e com arquivos.
+
+---------------------------//-----------------------------
+CEV - Aula 11 - (03/11/23)
+#O que é Git e GitHub ?
+#Instalando Git e GitHub
+*Repositório Local/Remoto - Repositório que fica na sua maquina/ Repositório que fica na nuvem.
+
+---------------------------//-----------------------------
+CEV - Aula 12 - (04/11/23)
+#Primeiro repositório git e GitHub
+#Gerenciado repositórios GitHub
+#Hospedando site gratuitamente com GitHub Pages 
+///Ao atualizar um repositório, ele é salvo na máquina local e então, é preciso fazer um push com um título para ser armazenado no GitHub.
+
+----------------------------------------------------------
+COMANDOS
+#/HTML\#
+
+
+
+
+
+#/CSS\#
+
+
+
+
+
+
+
+
