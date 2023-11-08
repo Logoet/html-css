@@ -51,6 +51,33 @@ Aula 10 (30/08/23)
 /////////////////////////////////////////////////////////////
 AUla11(04/10/23)
 #?
+------------------------------------------------------------------
+Trabalho Planejamento - 
+
+*Módulos - Uma escola
+	*Alunos - CRUD
+	*Professores - CRUD
+	*Cursos - CRUD
+	*Funcionários - CRUD
+*Controle de acesso
+	*Cadastro
+	*Login
+*Validar dados na interface
+*Valiar dados no servidor
+*Hospedar servidor
+
+MVC
+
+
+Model
+	
+View 
+	index
+	style
+	script
+
+
+
 
 
 	
