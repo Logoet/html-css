@@ -52,7 +52,7 @@ Aula 10 (30/08/23)
 AUla11(04/10/23)
 #?
 ------------------------------------------------------------------
-Trabalho Planejamento - 
+Trabalho Planejamento - Site para CRUD duma escola
 
 *Módulos - Uma escola
 	*Alunos - CRUD
@@ -66,15 +66,25 @@ Trabalho Planejamento -
 *Valiar dados no servidor
 *Hospedar servidor
 
-MVC
-
-
-Model
+Template
+	Cabeçalho + Rodapé
+Home
+	Fazer Login/Cadastro
+Alunos
+	Tabela com os dados
+	CRUD
+Professores
+	Tabela com os dados
+	CRUD
+Cursos
+	Tabela com os dados
+	CRUD
+Funcionários
+	Tabela com os dados
+	CRUD
 	
-View 
-	index
-	style
-	script
+	
+
 
 
 
